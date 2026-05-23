@@ -3,12 +3,18 @@ data/
 checkpoints/
 batches/
 LLMs/
-assets/
 results/
 .pixi/
+
+# Pickled binaries except codebook tree assets
 *.pkl
+!assets/codebook_ahc_tree*.pkl
 *.pth
 *.bin
+
+# Secrets — keep .env.example, exclude actual .env
+.env
+!.env.example
 
 # Python runtime
 __pycache__/
