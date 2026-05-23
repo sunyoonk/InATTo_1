@@ -1,0 +1,16 @@
+# Fallback pip-installable requirements (pixi.toml is the canonical env spec).
+# Use this with: pip install -r requirements.txt
+torch>=2.2,<2.5
+transformers>=4.40,<4.50
+sentence-transformers>=2.7
+sentencepiece
+protobuf
+numpy>=1.26,<2.0
+scipy
+pandas
+openpyxl
+scikit-learn
+tqdm
+pyyaml
+openai>=1.30
+python-dotenv
