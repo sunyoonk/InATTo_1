@@ -1,4 +1,4 @@
-"""End-to-end InATTo model — tokenizer + T5 + alignment, jointly trainable
+"""InATTo model — tokenizer + T5 + alignment, jointly trainable
 (spec §5 + §6).
 
 Composition:
